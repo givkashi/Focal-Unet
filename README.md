@@ -20,9 +20,11 @@
 </div>
 (*The segmentation results of Swin-UNet and Focal-UNet on Synapse dataset)
 
+
 <div>
-    <img src="./figs/fig3.png" width="90%">
+    <img src="./figs/fig3.png" width="50%">
 </div>
 (*The segmentation results of Swin-UNet and Focal-UNet on NeoPolyp dataset)
+
 ---
 
