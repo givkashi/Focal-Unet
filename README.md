@@ -10,7 +10,9 @@
 <div>
     <img src="./figs/fig1.png" width="90%">
 </div>
-(*Overview of the Focal-UNet architucture)
+<p align="center" "font-size:14px;">
+Overview of the Focal-UNet architucture
+</p>
 
 ---
 
@@ -19,13 +21,18 @@
 <div>
     <img src="./figs/fig2.png" width="90%">
 </div>
-(*The segmentation results of Swin-UNet and Focal-UNet on Synapse dataset)
+<p align="center" "font-size:14px;">
+The segmentation results of Swin-UNet and Focal-UNet on Synapse dataset
+</p>
+
 
 
 <div>
-    <img src="./figs/fig3.PNG" width="90%">
+    <img src="./figs/fig3.PNG" width="80%">
 </div>
-(*The segmentation results of Swin-UNet and Focal-UNet on NeoPolyp dataset)
+<p align="center" "font-size:14px;">
+The segmentation results of Swin-UNet and Focal-UNet on NeoPolyp dataset
+</p>
 
 ---
 
