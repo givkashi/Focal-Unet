@@ -1,6 +1,11 @@
 # Focal-Unet: Unet-like Focal Modulation for Medical Image Segmentation
 
-[[arXiv](https://arxiv.org/abs/2212.09263)]
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)
+[![GitHub Stars](https://img.shields.io/github/stars/givkashi/Focal-Unet?style=social)](https://github.com/givkashi/Focal-Unet)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=givkashi/Focal-Unet)
+
+<br>
 
 <details>
     <summary>Abstract (click to view)</summary>
@@ -37,3 +42,67 @@ The segmentation results of Swin-UNet and Focal-UNet on NeoPolyp dataset
 
 ---
 
+##  Environment
+
+- Use the command "pip install -r requirements.txt" for install dependencies.
+<br>
+
+## Prepare data
+
+- Synapse dataset: Please go to ["./datasets/README.md"](datasets/README.md) for details, or send an Email to givkashi AT gmail.com to request the preprocessed data.
+
+- NeoPolyp dataset: Please go to [Kaggle](https://www.kaggle.com/c/bkai-igh-neopolyp/) for download this dataset.
+
+<br>
+
+## Download pre-trained model 
+
+- The pre-trained model on Synapse dataset is available at [google drive](https://drive.google.com/drive/folders/1tq8-p4XXg-0mbbciqoN911Hd__PSWQEc?usp=sharing).
+
+- The pre-trained model on NeoPolyp dataset will be available.
+
+<br>
+
+## Test
+
+- Put the pre-trained model in `./checkpoint`.
+
+- Run
+
+```bash
+python test.py
+```
+<br>
+
+## Train
+
+- Download pre-trained focalnet tiny lrf from [here](https://drive.google.com/drive/folders/13SecOXT1cSAZpvzgkZ36ug9giwg9VRHb?usp=sharing). Put it in `./pretrained_focal` folder.
+
+- Put Synapse dataset in './data/Synapse'
+
+- Run train.py on synapse dataset.
+
+```bash
+python train.py
+```
+
+<br>
+
+## Acknowledgments
+
+
+* [Focal Modulation Networks](https://github.com/microsoft/FocalNet)
+* [Swin-Unet](https://github.com/HuCaoFighting/Swin-Unet)
+
+<br>
+
+## Citation
+If you found this code helpful, please consider citing: 
+```
+@article{naderi2022focal,
+  title={Focal-UNet: UNet-like Focal Modulation for Medical Image Segmentation},
+  author={Naderi, MohammadReza and Givkashi, MohammadHossein and Piri, Fatemeh and Karimi, Nader and Samavi, Shadrokh},
+  journal={arXiv preprint arXiv:2212.09263},
+  year={2022}
+}
+```
