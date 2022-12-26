@@ -80,7 +80,7 @@ python test.py
 
 - Download pre-trained focalnet tiny lrf from [here](https://drive.google.com/drive/folders/13SecOXT1cSAZpvzgkZ36ug9giwg9VRHb?usp=sharing). Put it in `./pretrained_focal` folder.
 
-- Put Synapse dataset in './data/Synapse'
+- Put Synapse dataset in `./data/Synapse`.
 
 - Run train.py on synapse dataset.
 
