@@ -59,7 +59,7 @@ The segmentation results of Swin-UNet and Focal-UNet on NeoPolyp dataset
 
 ## Download pre-trained model 
 
-- The pre-trained model on Synapse dataset is available at: [google drive](https://drive.google.com/drive/folders/1tq8-p4XXg-0mbbciqoN911Hd__PSWQEc?usp=sharing).
+- The pre-trained model on Synapse dataset is available at: [google drive](https://drive.google.com/file/d/15mlcmLFVxXTNsa0VMfyP6g8kWN7GiRz5/view?usp=sharing).
 
 - The pre-trained model on NeoPolyp dataset will be available.
 
