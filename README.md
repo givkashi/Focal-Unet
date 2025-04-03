@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/035fc7d1-3997-4b30-b954-844a877e74fd)# Focal-Unet: Unet-like Focal Modulation for Medical Image Segmentation
-
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)
 [![GitHub Stars](https://img.shields.io/github/stars/givkashi/Focal-Unet?style=social)](https://github.com/givkashi/Focal-Unet)
