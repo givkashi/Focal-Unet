@@ -1,3 +1,5 @@
+#Runs inference using the pre-trained Focal-UNet to evaluate segmentation performance on test datasets
+
 import argparse
 import logging
 import os
