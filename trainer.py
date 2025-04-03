@@ -1,3 +1,4 @@
+#Encapsulates the training loop, including optimization, checkpointing, and metric logging for the Focal-UNet model
 import argparse
 import logging
 import os
