@@ -1,3 +1,4 @@
+#Initializes and executes the training process for Focal-UNet on the Synapse dataset with configurable hyperparameters
 import argparse
 import logging
 import os
