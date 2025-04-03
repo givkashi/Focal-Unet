@@ -96,14 +96,3 @@ python train.py
 * [Swin-Unet](https://github.com/HuCaoFighting/Swin-Unet)
 
 <br>
-
-## Citation
-If you found this code helpful, please consider citing: 
-```
-@article{naderi2022focal,
-  title={Focal-UNet: UNet-like Focal Modulation for Medical Image Segmentation},
-  author={Naderi, MohammadReza and Givkashi, MohammadHossein and Piri, Fatemeh and Karimi, Nader and Samavi, Shadrokh},
-  journal={arXiv preprint arXiv:2212.09263},
-  year={2022}
-}
-```
